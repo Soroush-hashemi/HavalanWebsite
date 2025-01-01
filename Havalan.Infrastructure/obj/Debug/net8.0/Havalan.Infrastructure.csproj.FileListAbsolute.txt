@@ -1,0 +1,17 @@
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.AssemblyInfo.cs
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Infrastructure.deps.json
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Infrastructure.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Infrastructure.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Application.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Domain.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Application.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Domain.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan..E942F9FE.Up2Date
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\refint\Havalan.Infrastructure.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\ref\Havalan.Infrastructure.dll

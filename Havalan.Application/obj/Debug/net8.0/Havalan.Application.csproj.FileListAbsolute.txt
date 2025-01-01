@@ -1,0 +1,15 @@
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\bin\Debug\net8.0\Havalan.Application.deps.json
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\bin\Debug\net8.0\Havalan.Application.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\bin\Debug\net8.0\Havalan.Application.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\bin\Debug\net8.0\Havalan.Domain.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\bin\Debug\net8.0\Havalan.Domain.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.csproj.AssemblyReference.cache
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.AssemblyInfoInputs.cache
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.AssemblyInfo.cs
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.csproj.CoreCompileInputs.cache
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan..777472CA.Up2Date
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\refint\Havalan.Application.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.pdb
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\ref\Havalan.Application.dll

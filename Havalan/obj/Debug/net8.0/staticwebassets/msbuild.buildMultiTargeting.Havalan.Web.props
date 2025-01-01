@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Havalan.Web.props" />
+</Project>
