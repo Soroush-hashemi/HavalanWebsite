@@ -15,3 +15,4 @@ C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan
 C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\refint\Havalan.Infrastructure.dll
 C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.pdb
 C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\ref\Havalan.Infrastructure.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.sourcelink.json

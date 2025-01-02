@@ -9,3 +9,4 @@ C:\Users\soroush\Desktop\Havalan\Havalan.Domain\obj\Debug\net8.0\Havalan.Domain.
 C:\Users\soroush\Desktop\Havalan\Havalan.Domain\obj\Debug\net8.0\refint\Havalan.Domain.dll
 C:\Users\soroush\Desktop\Havalan\Havalan.Domain\obj\Debug\net8.0\Havalan.Domain.pdb
 C:\Users\soroush\Desktop\Havalan\Havalan.Domain\obj\Debug\net8.0\ref\Havalan.Domain.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Domain\obj\Debug\net8.0\Havalan.Domain.sourcelink.json

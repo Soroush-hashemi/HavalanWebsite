@@ -13,3 +13,4 @@ C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Ap
 C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\refint\Havalan.Application.dll
 C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.pdb
 C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\ref\Havalan.Application.dll
+C:\Users\soroush\Desktop\Havalan\Havalan.Application\obj\Debug\net8.0\Havalan.Application.sourcelink.json

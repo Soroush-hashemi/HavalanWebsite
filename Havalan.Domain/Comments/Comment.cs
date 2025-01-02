@@ -2,16 +2,16 @@
 using Havalan.Domain.Common;
 
 namespace Havalan.Domain.Comments;
-public class Comments : BaseEntity
+public class Comment : BaseEntity
 {
-    private Comments() { }
+    private Comment() { }
 
     public long PostId { get; private set; }
     public string UserName { get; private set; }
     public string Text { get; private set; }
 
 
-    public Comments(long postId, string userName, string text)
+    public Comment(long postId, string userName, string text)
     {
         CheckInputs(userName, text);
         PostId = postId;

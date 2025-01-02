@@ -12,7 +12,7 @@ public class Post : BaseEntity
     public string Slug { get; private set; }
     public string Description { get; private set; }
     public string ImageName { get; private set; }
-    public int Visit { get; private set; }
+    public int View { get; private set; }
     public bool IsFeatured { get; private set; }
     public bool IsSidebar { get; private set; }
 
@@ -28,7 +28,7 @@ public class Post : BaseEntity
         Slug = slug.ToSlug();
         Description = description;
         ImageName = imageName;
-        Visit = 0;
+        View = 0;
         IsFeatured = isFeatured;
         IsSidebar = isSidebar;
     }
@@ -51,7 +51,7 @@ public class Post : BaseEntity
 
     public void Visited()
     {
-        Visit += 1;
+        View += 1;
     }
 
     private void CheckInputs(string title, string slug, string description, IPostDomainService domainService)

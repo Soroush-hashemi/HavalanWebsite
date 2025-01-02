@@ -11,19 +11,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Comments\Commands\" />
-    <Folder Include="Comments\Queries\" />
-    <Folder Include="Posts\Commands\" />
-    <Folder Include="Posts\Queries\" />
-    <Folder Include="TrendingNews\Queries\" />
+    <Folder Include="Comments\Queries\GetForIndex\" />
+    <Folder Include="Posts\Queries\GetIsSidebar\" />
+    <Folder Include="Posts\Queries\GetIsFeatured\" />
+    <Folder Include="Posts\Queries\GetByMostView\" />
+    <Folder Include="Posts\Queries\GetLatest\" />
+    <Folder Include="Posts\Queries\GetBySlug\" />
+    <Folder Include="Posts\Queries\GetForAdmin\" />
     <Folder Include="Users\Commands\" />
-    <Folder Include="Users\Mapping\" />
     <Folder Include="Users\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
   </ItemGroup>
 

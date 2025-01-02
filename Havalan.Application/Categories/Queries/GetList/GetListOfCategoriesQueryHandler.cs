@@ -4,18 +4,18 @@ using Havalan.Application.Common.Interfaces;
 using MediatR;
 
 namespace Havalan.Application.Categories.Queries.GetList;
-public class GetListHandler : IRequestHandler<GetList, List<CategoryDto>>
+public class GetListOfCategoriesQueryHandler : IRequestHandler<GetListOfCategoriesQuery, List<CategoryDto>>
 {
     private ICategoryRepository _categoryRepository;
     private IMapper _mapper;
-    public GetListHandler(ICategoryRepository categoryRepository,
+    public GetListOfCategoriesQueryHandler(ICategoryRepository categoryRepository,
         IMapper mapper)
     {
         _categoryRepository = categoryRepository;
         _mapper = mapper;
     }
 
-    public async Task<List<CategoryDto>> Handle(GetList request, CancellationToken cancellationToken)
+    public async Task<List<CategoryDto>> Handle(GetListOfCategoriesQuery request, CancellationToken cancellationToken)
     {
         try
         {

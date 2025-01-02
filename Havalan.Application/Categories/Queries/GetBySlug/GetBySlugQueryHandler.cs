@@ -5,18 +5,18 @@ using Havalan.Domain.Categories;
 using MediatR;
 
 namespace Havalan.Application.Categories.Queries.GetBySlug;
-public class GetBySlugHandler : IRequestHandler<GetBySlug, CategoryDto>
+public class GetBySlugQueryHandler : IRequestHandler<GetBySlugQuery, CategoryDto>
 {
     private ICategoryRepository _categoryRepository;
     private IMapper _mapper;
-    public GetBySlugHandler(ICategoryRepository categoryRepository,
+    public GetBySlugQueryHandler(ICategoryRepository categoryRepository,
         IMapper mapper)
     {
         _categoryRepository = categoryRepository;
         _mapper = mapper;
     }
 
-    public async Task<CategoryDto> Handle(GetBySlug request, CancellationToken cancellationToken)
+    public async Task<CategoryDto> Handle(GetBySlugQuery request, CancellationToken cancellationToken)
     {
         try
         {

@@ -36,3 +36,6 @@ C:\Users\soroush\Desktop\Havalan\Havalan\obj\Debug\net8.0\Havalan.Web.csproj.Ass
 C:\Users\soroush\Desktop\Havalan\Havalan\obj\Debug\net8.0\Havalan..AE338DDD.Up2Date
 C:\Users\soroush\Desktop\Havalan\Havalan\bin\Debug\net8.0\MediatR.dll
 C:\Users\soroush\Desktop\Havalan\Havalan\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\soroush\Desktop\Havalan\Havalan\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\soroush\Desktop\Havalan\Havalan\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\soroush\Desktop\Havalan\Havalan\obj\Debug\net8.0\Havalan.Web.sourcelink.json

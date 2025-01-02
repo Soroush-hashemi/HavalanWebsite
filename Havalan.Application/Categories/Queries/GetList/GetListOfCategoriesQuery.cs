@@ -2,4 +2,4 @@
 using MediatR;
 
 namespace Havalan.Application.Categories.Queries.GetList;
-public class GetList : IRequest<List<CategoryDto>>;
+public class GetListOfCategoriesQuery : IRequest<List<CategoryDto>>;

@@ -18,5 +18,4 @@ public class DepedencyInjection
         IMapper mapper = mapperConfig.CreateMapper();
         services.AddSingleton(mapper);
     }
-
 }

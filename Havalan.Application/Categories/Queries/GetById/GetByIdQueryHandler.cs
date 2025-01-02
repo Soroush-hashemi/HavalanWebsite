@@ -5,18 +5,18 @@ using Havalan.Domain.Categories;
 using MediatR;
 
 namespace Havalan.Application.Categories.Queries.GetById;
-public class GetByIdHandler : IRequestHandler<GetById, CategoryDto>
+public class GetByIdQueryHandler : IRequestHandler<GetByIdQuery, CategoryDto>
 {
     private ICategoryRepository _categoryRepository;
     private IMapper _mapper;
-    public GetByIdHandler(ICategoryRepository categoryRepository,
+    public GetByIdQueryHandler(ICategoryRepository categoryRepository,
         IMapper mapper)
     {
         _categoryRepository = categoryRepository;
         _mapper = mapper;
     }
 
-    public async Task<CategoryDto> Handle(GetById request, CancellationToken cancellationToken)
+    public async Task<CategoryDto> Handle(GetByIdQuery request, CancellationToken cancellationToken)
     {
         try
         {

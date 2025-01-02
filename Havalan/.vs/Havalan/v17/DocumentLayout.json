@@ -3,16 +3,25 @@
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\trendingnews\\commands\\edit\\editnewscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getbyfilter\\getpostsbyfilterqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\trendingnews\\commands\\edit\\editnewscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getbyfilter\\getpostsbyfilterquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\trendingnews\\commands\\delete\\deletenewscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\dtos\\postfilterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\dtos\\postfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\basepagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,61 +31,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteNewsCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\TrendingNews\\Commands\\Delete\\DeleteNewsCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\TrendingNews\\Commands\\Delete\\DeleteNewsCommandHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\TrendingNews\\Commands\\Delete\\DeleteNewsCommandHandler.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\TrendingNews\\Commands\\Delete\\DeleteNewsCommandHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T15:04:20.48Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-02T18:01:50.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditNewsCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommandHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommandHandler.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABqAAAAAAAAAA==",
+              "Title": "GetPostsByFilterQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQueryHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQueryHandler.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQueryHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwA8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T16:44:35.653Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-02T18:00:09.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EditNewsCommand.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommand.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommand.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommand.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\TrendingNews\\Commands\\Edit\\EditNewsCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Title": "GetPostsByFilterQuery.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQuery.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQuery.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQuery.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetByFilter\\GetPostsByFilterQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T16:44:42.746Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-02T17:59:52.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\MappingProfile.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Common\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PostFilterParams.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterParams.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterParams.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterParams.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T16:58:45.763Z",
+              "WhenOpened": "2025-01-02T17:58:29.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasePagination.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\BasePagination.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\BasePagination.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\BasePagination.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Common\\BasePagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:53:55.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostFilterDto.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterDto.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterDto.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterDto.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\DTOs\\PostFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:53:34.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\DTOs\\PostDto.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\DTOs\\PostDto.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\DTOs\\PostDto.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\DTOs\\PostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:53:31.835Z",
               "EditorCaption": ""
             }
           ]

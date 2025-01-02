@@ -45,6 +45,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.0",
+          "System.IO.Pipelines": "5.0.2"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1722.21507"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/9.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "9.0.0",
@@ -166,11 +178,20 @@
           }
         }
       },
+      "System.IO.Pipelines/5.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.1522.11506"
+          }
+        }
+      },
       "Havalan.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Havalan.Domain": "1.0.0",
           "MediatR": "10.0.1",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "runtime": {
@@ -216,6 +237,13 @@
       "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
       "path": "mediatr.contracts/1.0.1",
       "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/9.0.0": {
       "type": "package",
@@ -300,6 +328,13 @@
       "sha512": "sha512-ddppcFpnbohLWdYKr/ZeLZHmmI+DXFgZ3Snq+/E7SwcdW4UnvxmaugkwGywvGVWkHPGCSZjCP+MLzu23AL5SDw==",
       "path": "system.diagnostics.diagnosticsource/9.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512"
+    },
+    "System.IO.Pipelines/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Iew+dfa6FFiyvWBdRmXApixRY1db+beyutpIck4SOSe0NLM8FD/7AD54MscqVLhvfSMLHO7KadjTRT7fqxOGTA==",
+      "path": "system.io.pipelines/5.0.2",
+      "hashPath": "system.io.pipelines.5.0.2.nupkg.sha512"
     },
     "Havalan.Application/1.0.0": {
       "type": "project",

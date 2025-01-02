@@ -5,18 +5,18 @@ using Havalan.Domain.Categories;
 using MediatR;
 
 namespace Havalan.Application.Categories.Queries.GetByParentId;
-public class GetSubCategoryByParentIdHandler : IRequestHandler<GetSubCategoryByParentId, SubCategoryDto>
+public class GetSubCategoryByParentIdQueryHandler : IRequestHandler<GetSubCategoryByParentIdQuery, SubCategoryDto>
 {
     private ICategoryRepository _categoryRepository;
     private IMapper _mapper;
-    public GetSubCategoryByParentIdHandler(ICategoryRepository categoryRepository,
+    public GetSubCategoryByParentIdQueryHandler(ICategoryRepository categoryRepository,
         IMapper mapper)
     {
         _categoryRepository = categoryRepository;
         _mapper = mapper;
     }
 
-    public async Task<SubCategoryDto> Handle(GetSubCategoryByParentId request, CancellationToken cancellationToken)
+    public async Task<SubCategoryDto> Handle(GetSubCategoryByParentIdQuery request, CancellationToken cancellationToken)
     {
         try
         {
