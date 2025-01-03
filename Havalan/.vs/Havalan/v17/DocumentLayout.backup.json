@@ -3,22 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getlatest\\getlatestpostsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\queries\\getallforadmin\\getallforadminqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getissidebar\\getissidebarpostqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\userdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getlatest\\getlatestpostsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\queries\\getallforadmin\\getallforadminquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getissidebar\\getissidebarpostquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\posts\\queries\\getisfeatured\\getisfeaturedpostquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\queries\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\commands\\signup\\signupcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\commands\\signup\\signupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,84 +34,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Common\\Interfaces\\IPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAmAAAAAAAAAA==",
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:25:04.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetLatestPostsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQueryHandler.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQueryHandler.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:26:50.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetLatestPostsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQuery.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQuery.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQuery.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetLatest\\GetLatestPostsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:26:17.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetIsFeaturedPostQuery.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetIsFeatured\\GetIsFeaturedPostQuery.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetIsFeatured\\GetIsFeaturedPostQuery.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetIsFeatured\\GetIsFeaturedPostQuery.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetIsFeatured\\GetIsFeaturedPostQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:22:37.166Z",
+              "WhenOpened": "2025-01-03T16:10:25.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetIsSidebarPostQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQueryHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQueryHandler.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "UserDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\UserDomainService.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\UserDomainService.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\UserDomainService.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Users\\UserDomainService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:20:25.029Z",
+              "WhenOpened": "2025-01-03T16:05:19.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllForAdminQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:03:30.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllForAdminQuery.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:02:57.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetIsSidebarPostQuery.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQuery.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQuery.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQuery.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Posts\\Queries\\GetIsSidebar\\GetIsSidebarPostQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\MappingProfile.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Common\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:19:03.652Z",
+              "WhenOpened": "2025-01-03T16:02:34.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T16:02:15.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignupCommand.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T15:55:32.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignupCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T15:49:30.697Z",
               "EditorCaption": ""
             }
           ]

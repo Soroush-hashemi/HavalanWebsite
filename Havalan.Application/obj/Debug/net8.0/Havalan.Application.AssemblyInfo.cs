@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Havalan.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d20e63395a1e17699076805881c0baf1b55f5bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+895cf8abb0b96363a63d9b44d8d14e957d3bf614")]
 [assembly: System.Reflection.AssemblyProductAttribute("Havalan.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Havalan.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
