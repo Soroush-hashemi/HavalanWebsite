@@ -12,12 +12,6 @@
 
   <ItemGroup>
     <Folder Include="Comments\Queries\GetForIndex\" />
-    <Folder Include="Posts\Queries\GetIsSidebar\" />
-    <Folder Include="Posts\Queries\GetIsFeatured\" />
-    <Folder Include="Posts\Queries\GetByMostView\" />
-    <Folder Include="Posts\Queries\GetLatest\" />
-    <Folder Include="Posts\Queries\GetBySlug\" />
-    <Folder Include="Posts\Queries\GetForAdmin\" />
     <Folder Include="Users\Commands\" />
     <Folder Include="Users\Queries\" />
   </ItemGroup>
