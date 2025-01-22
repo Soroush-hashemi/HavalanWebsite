@@ -47,6 +47,19 @@
           }
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "10.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -712,6 +725,19 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.1.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/10.0.0": {
+      "sha512": "IZvcm6MeGSX1AyIYx4+KdYjcqQgtXRIt07dxyWqjGgP3aGazuACAuIrp/czQ7hbxOVSnXqTJCPCjsn98jM/zAw==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.10.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -1461,6 +1487,7 @@
       "AutoMapper >= 13.0.1",
       "Havalan.Domain >= 1.0.0",
       "MediatR >= 10.0.1",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.0",
       "Microsoft.AspNetCore.Authentication.Cookies >= 2.2.0",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.2"
@@ -1527,6 +1554,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[10.0.1, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[10.0.0, )"
           },
           "Microsoft.AspNetCore.Authentication.Cookies": {
             "target": "Package",

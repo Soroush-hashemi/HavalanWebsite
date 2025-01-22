@@ -20,7 +20,6 @@ public class GetCommentByPostQueryHandler : IRequestHandler<GetCommentByPostIdQu
         try
         {
             var comment = await _commentsRepository.GetByPostId(request.PostId);
-            Check(comment);
 
             var commentDto = _mapper.Map<CommentDto>(comment);
             return commentDto;
@@ -29,11 +28,5 @@ public class GetCommentByPostQueryHandler : IRequestHandler<GetCommentByPostIdQu
         {
             throw new ArgumentNullException(ex.Message);
         }
-    }
-
-    private void Check(Comment comment) 
-    {
-        if (comment is null)
-            throw new ArgumentNullException(nameof(comment));
     }
 }

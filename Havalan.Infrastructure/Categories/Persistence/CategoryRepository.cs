@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Havalan.Infrastructure.Categories.Persistence;
 public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
 {
-    public CategoryRepository(HavalanDbContext context, IUnitOfWork unitOfWork) : base(context , unitOfWork)
+    public CategoryRepository(HavalanDbContext dbContext, IUnitOfWork unitOfWork)
+        : base(dbContext, unitOfWork)
     {
     }
 

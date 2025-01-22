@@ -16,3 +16,5 @@ C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\refint\
 C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.pdb
 C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\ref\Havalan.Infrastructure.dll
 C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.sourcelink.json
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\bin\Debug\net8.0\Havalan.Infrastructure.runtimeconfig.json
+C:\Users\soroush\Desktop\Havalan\Havalan.Infrastructure\obj\Debug\net8.0\Havalan.Infrastructure.genruntimeconfig.cache

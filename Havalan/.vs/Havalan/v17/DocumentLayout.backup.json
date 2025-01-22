@@ -3,28 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\queries\\getallforadmin\\getallforadminqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7886A1F9-1393-412F-9CC4-13EB8687C418}|..\\Havalan.Infrastructure\\Havalan.Infrastructure.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7886A1F9-1393-412F-9CC4-13EB8687C418}|..\\Havalan.Infrastructure\\Havalan.Infrastructure.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.infrastructure\\common\\persistence\\havalandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\userdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\queries\\getallforadmin\\getallforadminquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\common\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\queries\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7886A1F9-1393-412F-9CC4-13EB8687C418}|..\\Havalan.Infrastructure\\Havalan.Infrastructure.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.infrastructure\\common\\persistence\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\commands\\signup\\signupcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C28223D-DB84-418F-8B37-09295E1B19DD}|Havalan.Web.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C28223D-DB84-418F-8B37-09295E1B19DD}|Havalan.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD2516A2-A3E1-4DFF-B821-7F3CF78ED439}|..\\Havalan.Application\\Havalan.Application.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan.application\\users\\commands\\signup\\signupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C28223D-DB84-418F-8B37-09295E1B19DD}|Havalan.Web.csproj|c:\\users\\soroush\\desktop\\havalan\\havalan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C28223D-DB84-418F-8B37-09295E1B19DD}|Havalan.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,111 +35,111 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 225,
           "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Common\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Title": "HavalanDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Infrastructure\\Common\\Persistence\\HavalanDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Infrastructure\\Common\\Persistence\\HavalanDbContext.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Infrastructure\\Common\\Persistence\\HavalanDbContext.cs",
+              "RelativeToolTip": "..\\Havalan.Infrastructure\\Common\\Persistence\\HavalanDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:10:25.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserDomainService.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\UserDomainService.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\UserDomainService.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\UserDomainService.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Users\\UserDomainService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:05:19.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllForAdminQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQueryHandler.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:03:30.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllForAdminQuery.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Users\\Queries\\GetAllForAdmin\\GetAllForAdminQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:02:57.293Z",
+              "WhenOpened": "2025-01-22T12:19:18.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\MappingProfile.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Common\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAbAAAAAAAAAA==",
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Common\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:02:34.327Z",
+              "WhenOpened": "2025-01-22T12:19:15.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Havalan.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIAxwBgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:02:42.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Users\\Queries\\DTO\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Infrastructure\\Common\\Persistence\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Infrastructure\\Common\\Persistence\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Infrastructure\\Common\\Persistence\\BaseRepository.cs",
+              "RelativeToolTip": "..\\Havalan.Infrastructure\\Common\\Persistence\\BaseRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:02:15.385Z",
+              "WhenOpened": "2025-01-22T12:18:49.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignupCommand.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\Common\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:55:32.002Z",
+              "WhenOpened": "2025-01-22T12:18:05.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Havalan.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Havalan.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T21:05:45.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SignupCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
-              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
-              "RelativeToolTip": "..\\Havalan.Application\\Users\\Commands\\Signup\\SignupCommandHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCEAAAA/AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:49:30.697Z",
+              "WhenOpened": "2025-01-21T21:05:02.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\soroush\\Desktop\\Havalan\\Havalan\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T11:36:57.971Z",
               "EditorCaption": ""
             }
           ]

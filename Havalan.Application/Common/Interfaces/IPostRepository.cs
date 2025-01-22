@@ -6,9 +6,9 @@ public interface IPostRepository :IBaseRepository<Post>
     void DeletePost(Post post);
     IEnumerable<Post> GetAllPostAsEnumerable();
     Task<List<Post>> GetAllPostAsList();
-    Task<Post> GetIsFeaturedPost();
+    Task<Post?> GetIsFeaturedPost();
     Task<List<Post>> GetIsSidebarPost();
     Task<List<Post>> GetLatestPosts();
-    Task<Post> GetPostBySlug(string slug);
+    Task<Post?> GetPostBySlug(string slug);
     Task<List<Post>> GetPostWithMostView();
 }

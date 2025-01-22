@@ -32,7 +32,7 @@ public class GetAllForAdminQueryHandler : IRequestHandler<GetAllForAdminQuery, L
         }
     }
 
-    private void Check(User users)
+    private void Check(List<User> users)
     {
         if (users == null)
             throw new ArgumentNullException(nameof(users));
