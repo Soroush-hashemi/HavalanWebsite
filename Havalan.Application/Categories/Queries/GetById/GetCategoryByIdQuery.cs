@@ -2,4 +2,4 @@
 using MediatR;
 
 namespace Havalan.Application.Categories.Queries.GetById;
-public record GetByIdQuery(long CategoryId) : IRequest<CategoryDto>;
+public record GetCategoryByIdQuery(long CategoryId) : IRequest<CategoryDto>;
