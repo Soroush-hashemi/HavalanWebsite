@@ -7,13 +7,11 @@ A news website built with **ASP.NET Core 8**, **SQL Server**, and **Clean Archit
 - User authentication and role-based access
 - Categorized news sections
 - Admin panel for content management
-- Responsive design (if applicable)
 
 ## Technologies Used
 - **Backend:** ASP.NET Core 8, Clean Architecture
 - **Database:** SQL Server
 - **ORM:** Entity Framework Core
-- **Frontend:** (Specify if you use a frontend framework)
 
 ## Getting Started
 
@@ -27,4 +25,4 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YourUsername/YourProject.git
+   git clone https://github.com/Soroush-hashemi/HavalanWebsite
