@@ -1,0 +1,30 @@
+﻿@using Havalan.Web.Areas.Admin.Models.Category
+@model CreateCategoryViewModel
+@{
+    ViewData["title"] = "افزودن دسته بندی";
+}
+<section class="content-header">
+    <h1>
+        @ViewData["title"]
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="~/Admin"><i class="fa fa-dashboard"></i> خانه</a></li>
+        <li><a href="~/Admin/Category">دسته بندی ها</a></li>
+        <li class="active">@ViewData["title"]</li>
+    </ol>
+</section>
+<section class="content">
+    <form class="box box-danger" method="post" href="~/Admin/Category/Add">
+        <div class="box-body row">
+            <div class="col-md-6">
+                @Html.EditorFor(m => m.Slug)
+            </div>
+            <div class="col-md-6">
+                @Html.EditorFor(m => m.Title)
+            </div>
+        </div>
+        <div class="box-footer">
+            <button class="btn btn-success" type="submit">ثبت اطلاعات</button>
+        </div>
+    </form>
+</section>
