@@ -27,4 +27,10 @@ public class CommentRepository : BaseRepository<Comment>, ICommentsRepository
     {
         return await _context.Comments.FirstOrDefaultAsync(p => p.PostId == PostId);
     }
+
+    public string GetPostSlug(long PostId)
+    {
+        var post = _context.Posts.FirstOrDefault(s => s.Id == PostId);
+        return post.Slug;
+    }
 }
