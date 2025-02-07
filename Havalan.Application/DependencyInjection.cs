@@ -15,18 +15,6 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Havalan.Application;
 public static class DependencyInjection
 {
-    public static void ConfigureAutoMapper(this IServiceCollection services)
-    {
-        var mapperConfig = new MapperConfiguration(cfg =>
-        {
-            cfg.CreateMap<Category , CategoryDto>();
-            cfg.AddProfile<MappingProfile>();
-        });
-
-        IMapper mapper = mapperConfig.CreateMapper();
-        services.AddSingleton(mapper);
-    }
-
     public static IServiceCollection AddApplication(this IServiceCollection services)
     {
         services.AddTransient<IFileService, FileService>();
