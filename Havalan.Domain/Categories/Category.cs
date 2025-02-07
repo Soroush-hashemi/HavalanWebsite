@@ -4,7 +4,10 @@ using Havalan.Domain.Common;
 namespace Havalan.Domain.Categories;
 public class Category : BaseEntity
 {
-    private Category() { }
+    private Category() 
+    {
+        SubCategory = new List<Category>();
+    }
 
     public string Title { get; private set; }
     public string Slug { get; private set; }
@@ -41,7 +44,7 @@ public class Category : BaseEntity
         NullOrEmptyException.CheckString(title, nameof(title));
         NullOrEmptyException.CheckString(slug, nameof(slug));
 
-        if (Slug != null)
+        if (Slug != slug)
         {
             var result = domainService.IsSlugExist(slug);
             if (result.Status != OperationResultStatus.Success)
