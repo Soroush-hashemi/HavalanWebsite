@@ -24,6 +24,10 @@ public class GetAllCommentQueryHandler : IRequestHandler<GetAllCommentQuery, Lis
             Check(comments);
 
             var CommentsDto = _mapper.Map<List<CommentDto>>(comments);
+            foreach (var item in CommentsDto)
+            {
+                item.PostSlug = _commentsRepository.GetPostSlug(item.PostId);
+            }
 
             return CommentsDto;
         }
