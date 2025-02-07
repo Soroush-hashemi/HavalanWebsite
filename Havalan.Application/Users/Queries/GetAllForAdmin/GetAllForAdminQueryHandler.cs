@@ -5,7 +5,7 @@ using Havalan.Domain.Users;
 using MediatR;
 
 namespace Havalan.Application.Users.Queries.GetAllForAdmin;
-public class GetAllForAdminQueryHandler : IRequestHandler<GetAllForAdminQuery, List<UserDto>>
+public class GetAllForAdminQueryHandler : IRequestHandler<GetAllUserForAdminQuery, List<UserDto>>
 {
     private readonly IUserRepository _userRepository;
     private readonly IMapper _mapper;
@@ -16,7 +16,7 @@ public class GetAllForAdminQueryHandler : IRequestHandler<GetAllForAdminQuery, L
         _mapper = mapper;
     }
 
-    public async Task<List<UserDto>> Handle(GetAllForAdminQuery request, CancellationToken cancellationToken)
+    public async Task<List<UserDto>> Handle(GetAllUserForAdminQuery request, CancellationToken cancellationToken)
     {
         try
         {

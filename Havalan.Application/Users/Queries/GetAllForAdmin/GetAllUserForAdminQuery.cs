@@ -2,4 +2,4 @@
 using MediatR;
 
 namespace Havalan.Application.Users.Queries.GetAllForAdmin;
-public class GetAllForAdminQuery : IRequest<List<UserDto>>;
+public class GetAllUserForAdminQuery : IRequest<List<UserDto>>;
