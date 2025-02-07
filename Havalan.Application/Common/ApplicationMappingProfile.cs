@@ -10,9 +10,9 @@ using Havalan.Domain.TrendingNews;
 using Havalan.Domain.Users;
 
 namespace Havalan.Application.Common;
-public class MappingProfile : Profile
+public class ApplicationMappingProfile : Profile
 {
-    public MappingProfile()
+    public ApplicationMappingProfile()
     {
         CreateMap<Category, CategoryDto>();
         CreateMap<TrendingNew, TrendingNewDto>();
