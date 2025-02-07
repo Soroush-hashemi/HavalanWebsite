@@ -1,5 +1,6 @@
 using Havalan.Application;
 using Havalan.Infrastructure;
+using Havalan.Web.Configurations;
 
 namespace Havalan;
 public class Program
@@ -16,7 +17,7 @@ public class Program
         if (ConnectionString is null)
             throw new NullReferenceException("ConnectionString is null");
 
-        services.ConfigureAutoMapper();
+        services.ConfigureMapper();
         services.AddApplication();
         services.AddInfrastructure(ConnectionString);
 
@@ -30,12 +31,13 @@ public class Program
 
         app.UseHttpsRedirection();
         app.UseStaticFiles();
-
         app.UseRouting();
-
         app.UseAuthorization();
-
         app.MapRazorPages();
+
+        app.MapControllerRoute(
+            name: "Admin",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
         app.Run();
     }
