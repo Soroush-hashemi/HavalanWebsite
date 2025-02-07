@@ -1,7 +1,9 @@
-﻿using Havalan.Application.Categories.Commands.AddSubCategory;
+﻿using AutoMapper;
+using Havalan.Application.Categories.Commands.AddSubCategory;
 using Havalan.Application.Categories.Commands.CreateCategory;
 using Havalan.Application.Categories.Commands.Delete;
 using Havalan.Application.Categories.Commands.Edit;
+using Havalan.Application.Categories.Queries.GetById;
 using Havalan.Application.Categories.Queries.GetList;
 using Havalan.Web.Areas.Admin.Models.Category;
 using MediatR;
@@ -12,9 +14,11 @@ namespace Havalan.Web.Areas.Admin.Controllers;
 public class CategoryController : AdminBaseController
 {
     private readonly IMediator _mediator;
-    public CategoryController(IMediator mediator)
+    private readonly IMapper _mapper;
+    public CategoryController(IMediator mediator, IMapper mapper)
     {
         _mediator = mediator;
+        _mapper = mapper;
     }
 
     [HttpGet("")]
@@ -41,7 +45,7 @@ public class CategoryController : AdminBaseController
     [HttpGet("AddSubCategory/{parentId}")]
     public IActionResult AddSubCategory(long parentId)
     {
-        return View();
+        return View(new SubCategoryViewModel());
     }
 
     [HttpPost("AddSubCategory/{parentId}")]
@@ -53,15 +57,19 @@ public class CategoryController : AdminBaseController
     }
 
     [HttpGet("Edit/{Id}")]
-    public IActionResult Edit(long Id)
+    public async Task<IActionResult> Edit(long Id)
     {
-        return View();
+        var category = await _mediator.Send(new GetCategoryByIdQuery(Id));
+        var categoryMapped = _mapper.Map<EditCategoryViewModel>(category);
+        return View(categoryMapped);
     }
 
     [HttpPost("Edit/{Id}")]
     public async Task<IActionResult> Edit(EditCategoryViewModel model)
     {
-        EditCategoryCommand command = new EditCategoryCommand(model.Id, model.Title, model.Slug);
+        EditCategoryCommand command = new EditCategoryCommand(model.Id,
+             model.Title, model.Slug);
+
         var result = await _mediator.Send(command);
         return ResultAlert(result);
     }
