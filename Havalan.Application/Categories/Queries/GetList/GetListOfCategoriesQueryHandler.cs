@@ -18,7 +18,7 @@ public class GetListOfCategoriesQueryHandler : IRequestHandler<GetListOfCategori
     public async Task<List<CategoryDto>> Handle(GetListOfCategoriesQuery request, CancellationToken cancellationToken)
     {
         try
-        {
+            {
             var categories = _categoryRepository.GetList();
             var categoriesDto = _mapper.Map<List<CategoryDto>>(categories);
 
