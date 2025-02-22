@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Havalan.Application.Posts.Commands.Delete;
 using Havalan.Application.TrendingNews.Commands.Add;
 using Havalan.Application.TrendingNews.Commands.Delete;
 using Havalan.Application.TrendingNews.Commands.Edit;
@@ -46,7 +45,8 @@ public class TrendingNewsController : AdminBaseController
     public async Task<IActionResult> Edit(long Id)
     {
         var TrendingNewsDto = await _mediator.Send(new GetByIdNewsQuery(Id));
-        return View(TrendingNewsDto);
+        var TrendingNewsMapped = _mapper.Map<TrendingNewsViewModel>(TrendingNewsDto);
+        return View(TrendingNewsMapped);
     }
 
     [HttpPost("Edit/{Id}")]
